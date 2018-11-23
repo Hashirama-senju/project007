@@ -1,0 +1,121 @@
+html, body {
+    background:linear-gradient(#A90329, #6d0019);
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: small;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    line-height: 1.7em; 
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: auto;
+  }
+  ​
+  button {
+    background-color: rgba(255,255,255,.5);
+    padding: 5px;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 5px;
+    
+  }
+  ​
+  .wrapper {
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  ​
+  .action{
+    bottom: 10px;
+    position: fixed;
+    flex: 5;
+    display: block;
+    padding: 15px;
+  }
+  .text-box {
+   
+    font-size: 16px;
+    display: flex;
+    width: 100%;
+  }
+  input#message {
+    margin-top: 10px;
+    padding-left: 11px;
+    padding-right: 9px;
+    font-size: 16px;
+    height: 27px;
+    display: flex;
+    flex: 10;
+    outline: none;
+    margin: 0 10px 0 0;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 13px;
+   
+  }
+  ​
+  input.send-button {
+    display: block;
+    background-color: rgba(255,255,255,.6);
+    flex: 1;
+    border: 1px solid rgba(0,0,0,.2);
+    height: 27px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0;
+    border-radius: 13px;
+    margin-right: 10px;
+    margin-top: 10px;
+    position: relative;
+  }
+    ​
+  div#dialogue {
+    overflow-x: none;
+    overflow-y: auto;
+    display: block;
+    flex: 95;
+    box-sizing:border-box;
+    width: 100%;
+    padding: 15px;
+  
+  }
+  ​
+  .bot-row, .user-row {
+    bottom: 10x;
+    padding: 1px 0 10px 0;
+    display: block;
+    position: relative;
+  }
+  .user-row {
+
+    text-align: right;
+  }
+  .bot {
+    font-size: 16px;
+    padding: 5px 8px;
+    margin: 1px;
+    border-radius: 12px;
+    display: inline-block;
+    position: relative;
+    margin-right: 50px;
+    background-color: rgba(255,255,255,.85);
+    border-bottom-left-radius: 0;
+  }
+  .user {
+    font-size: 16px;
+    padding: 5px 8px;
+    margin:1px;
+    border-radius: 12px;
+    margin-left: 50px;
+    color: white;
+    background-color: #17aa3c; 
+    border-bottom-right-radius: 0;
+    display: inline-block;
+    position: relative;
+  }
+
